@@ -1,0 +1,104 @@
+/**
+ * Navbar
+ */
+.main-navbar {
+	padding: 0.5rem;
+}
+
+/**
+ * Social Media
+ */
+.social-media-icons {
+	position: fixed;
+	height: 100%;
+	right: 0;
+}
+
+.social-media-icons > ul > li {
+	padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+
+
+/**
+ * Packages
+ */
+.package > .card > .card-content > .content > ul {
+	list-style: none;
+}
+
+
+
+
+/**
+ * Company
+ */
+.card-footer {
+	border-top: none;
+}
+
+.card-footer > .content {
+	padding: 1rem;
+}
+
+.hero {
+	background: url("../images/company.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 25px !important;
+}
+
+.hero > .hero-body > .card {
+	background-color: transparent;
+	box-shadow: none;
+}
+
+
+
+/**
+ * Gallery
+ */
+.modal-background {
+    background-color: rgba(10,10,10,.4);
+}
+
+.modal-content {
+	height: auto;
+	width: auto;
+	margin: 4rem;
+}
+
+
+
+
+/**
+ * Other
+ */
+/*Zoom*/
+.zoom {
+	transition: transform .2s;
+}
+
+.zoom:hover {
+	transform: scale(1.1);
+}
+
+.rubberBand:hover {
+	animation: rubberBand 1s;
+}
+
+.bounce:hover {
+	animation: bounce 1s;
+}
+
+
+/*Form - Other - Recepient*/
+.v-enter-active,
+.v-leave-active {
+	transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+	opacity: 0;
+}
